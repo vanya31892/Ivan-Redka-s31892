@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Kate"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-17 03:11:43 PM"/>
+        <attribute name="created" value="S2F0ZTtMQVBUT1AtVVFSMTg5NjI7MjAyMy0xMC0xNzswMzowOTo1OSBQTTsyNjk4"/>
+        <attribute name="edited" value="S2F0ZTtMQVBUT1AtVVFSMTg5NjI7MjAyMy0xMC0xNzswMzoxMTo0MyBQTTsxOzI3OTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <do expression="n&lt;0">
+                <output expression="&quot;Wpisz liczb&#281;&quot;" newline="True"/>
+                <input variable="n"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
