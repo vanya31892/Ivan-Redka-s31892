@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Kate"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-17 03:26:22 PM"/>
+        <attribute name="created" value="S2F0ZTtMQVBUT1AtVVFSMTg5NjI7MjAyMy0xMC0xNzswMzoxOTowOCBQTTsyNjkz"/>
+        <attribute name="edited" value="S2F0ZTtMQVBUT1AtVVFSMTg5NjI7MjAyMy0xMC0xNzswMzoyNjoyMiBQTTsxOzI3OTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <declare name="sum" type="Integer" array="False" size=""/>
+            <output expression="&quot;Wpisz liczb&#281;&quot;" newline="True"/>
+            <input variable="a"/>
+            <if expression="a&gt;10">
+                <then>
+                    <assign variable="b" expression="a/10"/>
+                    <assign variable="c" expression="a-10*b"/>
+                    <assign variable="sum" expression="b+c"/>
+                    <output expression="sum" newline="True"/>
+                </then>
+                <else>
+                    <output expression="a" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
